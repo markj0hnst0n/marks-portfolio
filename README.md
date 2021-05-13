@@ -1,59 +1,124 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<div align="center">
+<h1>Mark's Portfolio</h1>
+</div>
 
-Welcome USER_NAME,
+![]()
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
-## Gitpod Reminders
+# UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Stories
 
-`python3 -m http.server`
+|   As an	| I want to be able to | So that I can |
+|-----------|----------------------|---------------|
+| Employer | View list of work experience | check whether the site owner is a good fit
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Wireframes
 
-A blue button should appear to click: _Make Public_,
+## Fonts
 
-Another blue button should appear to click: _Open Browser_.
+## Colour Scheme
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Features
 
-To log into the Heroku toolbelt CLI:
+# Technologies Used
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+[Django](https://www.djangoproject.com/)
+An amazingly powerful framework on which the project is built.  It has been love at first sight.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+[HTML5](https://en.wikipedia.org/wiki/HTML5)
+for the structure of the website
 
-## Updates Since The Instructional Video
+[CSS 3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3)
+for the look of the website
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+[Python 3 Language](https://www.python.org/)
+to write code for data manipulation at the back end of the app within the flask framework.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+[Bootstrap 4](https://getbootstrap.com/)
+website framework with html, css and javascript.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+[Fontawesome](https://fontawesome.com/)
+for icons.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+[Javascript](https://en.wikipedia.org/wiki/JavaScript)
+for the logic of the game.  To manipulate the HTML and CSS on the screen.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+[jQuery](https://en.wikipedia.org/wiki/JQuery)
+to manipulate the HTML and CSS on the screen.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+[JShint](https://jshint.com/)
+to validate javscript code.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+[Coolors](https://coolors.co/)
+for help with colours and colours scheme
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+[Webformatter](https://webformatter.com/)
+for formatting HTML, CSS and javascript code.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+[Asana](https://asana.com/)
+for project management
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+[Balsamiq Wireframes](https://balsamiq.com/wireframes/)
+for creating Wireframes for initial visual development
 
----
+[Visual Studio Code](https://code.visualstudio.com/)
 
-Happy coding!
+[GitHub](https://github.com/)
+for storing code.
+
+[Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/)
+for quick easy forms based on user models.
+
+[Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+to configure amazon web services s3 bucket.
+
+[Dj Database URL](https://pypi.org/project/dj-database-url/)
+to create a dictionary of the database info
+
+[Stripe](https://stripe.com/)
+for making debit and credit card payments on the site.
+
+[Psychopg](https://www.psycopg.org/)
+postgresql driver used in deployment.
+
+[Green Unicorn](https://gunicorn.org/)
+as a python wsgi http server.
+
+[Google Fonts](https://fonts.google.com/)
+for fonts used in the project.
+
+[Google Chrome Development Tools](https://developers.google.com/web/tools/chrome-devtools) for testing code on various device sizes during development and debugging.
+
+[Amazon Web Services](https://aws.amazon.com/)
+S3 for cloud based static files.
+
+[Google Lighthouse](https://developers.google.com/web/tools/lighthouse) for testing code health, accessibility, speed and search engine optimisation.
+
+# Information Architechture
+
+### Experience App
+
+### Education App
+
+### Projects App
+
+# Testing
+
+# Deployment
+
+# Credits
+
+## Content
+
+Written content by Mark Johnston.
+
+## Media
+
+## Influences
+
+## Acknowledgements
+
+- My Wife Joanna Johnston
