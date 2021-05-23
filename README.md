@@ -11,9 +11,10 @@
 
 |   As an	| I want to be able to | So that I can |
 |-----------|----------------------|---------------|
-| Employer | View list of work experience | check whether the site owner is a good fit
-
-
+| Employer | see some examples of work | see if the site owner has the required skills
+| Employer | see qualifications | see that the onwers skills have been recognised
+| Employer | see relevant work experience | see what transferrable skills the site owner has
+| Employer | contact the site owner | collaborate on projects or work together
 
 ## Wireframes
 
