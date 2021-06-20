@@ -2,5 +2,12 @@
 {% load static %}
 
 {% block content %}
-    <h1 class="display-4 text-success">Homepage</h1>
+    <div class="container">
+        <h1 id="homepage" class="display-4 text-success">Homepage</h1>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $("#homepage").show( "slow" );
+        });
+    </script>
 {% endblock %}
