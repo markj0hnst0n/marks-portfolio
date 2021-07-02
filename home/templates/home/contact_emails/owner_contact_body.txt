@@ -1,0 +1,2 @@
+User Name: {{ user_name }}
+Query: {{ query }}
