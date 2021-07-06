@@ -2,12 +2,14 @@
 {% load static %}
 
 {% block content %}
+    
     <div class="container">
-        <h1 id="homepage" class="display-4 text-success">Homepage</h1>
+          <h1 id="homepage" style="display: none" class="display-4 text-success">Homepage</h1>
     </div>
+
     <script>
-        $(document).ready(function () {
-            $("#homepage").show( "slow" );
-        });
+    $( "#homepage" ).show( "slow", function() {
+        // Animation complete.
+    });
     </script>
 {% endblock %}
