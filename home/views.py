@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.core.mail import send_mail
 from django.template.loader import render_to_string
 from django.contrib import messages
+from .forms import ContactForm
 
 from django.conf import settings
 
@@ -17,7 +18,7 @@ def about(request):
 
 def contact(request):
     """ Shows and allows user to sent contact form """
-
+    
     email = ""
     if request.method == 'POST':
         user_email = request.POST.get("email")
@@ -49,8 +50,9 @@ def contact(request):
             [user_email]
         )
         messages.info(request, "Contact form sent")
-
+    form = ContactForm
     context = {
+        'form': form,
         'email': email,
     }
 
