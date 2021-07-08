@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+    
+    <div class="container">
+        <h1 class="display-4 text-success">Projects</h1>
+        {% for project in projects %}
+        {% if project.image %}
+        <div class="row">
+            <div>Item Appears</div>
+        </div>
+        {% else %}
+        <div class="row">
+            <div>Item does not appear</div>
+        </div>
+        {% endif %}
+        <div class="row">
+            {{ project.name }}
+        </div>
+        <div class="row">
+            {{ project.short_description }}
+        </div>
+        <div class="row">
+            {{ project.verbose_description }}
+        </div>
+        {% endfor %}
+    </div>
+
+{% endblock %}
