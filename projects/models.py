@@ -5,3 +5,5 @@ class Project(models.Model):
 	image = models.ImageField(blank=True)
 	short_description = models.TextField()
 	verbose_description = models.TextField()
+	github_link = models.URLField(default="")
+	live_link = models.URLField(default="")

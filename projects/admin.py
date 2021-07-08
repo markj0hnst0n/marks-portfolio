@@ -7,6 +7,8 @@ class ProjectAdmin(admin.ModelAdmin):
 		'image',
 		'short_description',
 		'verbose_description',
+		'github_link',
+		'live_link',
 	)
 	ordering = ('name',)
 
